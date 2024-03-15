@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    height: 69px;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+nav{
+    margin-right: 20px;
+}
+
+main, section{
+    margin: 0 50px;
+}
+
+
+ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    list-style-position: inside;
+}
+
+li{
+    text-decoration: underline;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+#tealogo{
+    height: 50px;
+    margin-left: 10px;
+  
+}
+
+main{
+    margin-top: 69px;
+    background-image: url("../img/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+#mission{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+h2, h4{
+    margin: 20px 0;
+
+}
+
+#teaMonth{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gridLayout{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+#teaMonth div div{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#teaMonth div img{
+   height: 200px;
+   width: 300px;
+}
+
+#location{
+    background-image: url("../img/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+}
+
+#location div {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+
+#location h2{
+    margin-bottom: 40px;
+}
+
+
+#location div div{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    height: 300px;
+    width: 300px;
+}
+
+#location div div span{
+    width: 200px;
+    text-wrap: wrap;
+    line-height: 2.5;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    gap: 20px;
+}
+
+
+.foot{
+    width: 100%;
+    text-align: left;
+}
